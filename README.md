@@ -39,3 +39,5 @@ If not sufficient to make everything clean, restart manually everything:
 ```bash
 sudo service gridengine-master restart
 ```
+**To my experience, the most common cause of queue dropping is ... the hard drive is full.**
+Then sge server deamon becomes crazy, and unexpected things may happen.
